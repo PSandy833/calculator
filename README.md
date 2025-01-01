@@ -20,10 +20,9 @@ Use the = button to calculate the result.
 Press C to clear the calculator and start over.
 
 # File Structure
-
-├── calculator.html      # Main HTML file
-├── calculator.css      # CSS file for styling
-├── calculator.js       # JavaScript file for calculator logic
+ calculator.html      
+ calculator.css      
+calculator.js       
 
 # Future Enhancements
 Add support for advanced mathematical functions (e.g., square roots, exponents).
