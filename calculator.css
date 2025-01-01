@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #000; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Calculator container */
+  .calculator {
+    width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5); 
+  }
+  
+  /* Display styles */
+  .calculator-display {
+    background: #333; 
+    color: #fff;
+    font-size: 2em;
+    text-align: right;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* Button container */
+  .calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  /* Button styles */
+  .btn {
+    font-size: 1.5em;
+    padding: 20px;
+    background: #444; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  /* Button active state */
+  .btn:active {
+    background: #ec0202; 
+  }
+  
+  /* Operator button styles */
+  .operator {
+    background: #ff9500; 
+    color: #fff;
+  }
+  
+  /* Equal button styles */
+  .equal {
+    grid-column: span 4;
+    background: #28a745;
+    color: white;
+  }
+  
+  /* Clear button styles */
+  .clear {
+    background: #dc3545; 
+    color: white;
+  }
+  
